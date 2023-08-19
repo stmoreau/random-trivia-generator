@@ -1,4 +1,5 @@
 import readline from "readline";
+import he from "he";
 import { fetchTriviaQuestion } from "./fetchTriviaQuestion";
 import { TriviaQuestion } from "./types";
 
@@ -42,9 +43,9 @@ export async function askQuestion() {
 }
 
 function displayQuestion(question: TriviaQuestion) {
-  console.log("Question:", question.question);
+  console.log("Question:", he.decode(question.question));
 }
 
 function displayAnswer(question: TriviaQuestion) {
-  console.log("Answer:", question.correct_answer);
+  console.log("Answer:", he.decode(question.correct_answer));
 }
