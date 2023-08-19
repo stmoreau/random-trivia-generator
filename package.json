@@ -1,0 +1,31 @@
+{
+  "name": "random-trivia-generator",
+  "version": "0.0.1",
+  "description": "A CLI tool to get random trivia questions and answer them.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node triviaCLI.ts"
+  },
+  "keywords": [
+    "trivia",
+    "cli",
+    "quiz"
+  ],
+  "author": "stmoreau",
+  "license": "MIT",
+  "dependencies": {
+    "@types/figlet": "^1.5.6",
+    "axios": "^1.4.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  },
+  "bin": {
+    "trivia": "./dist/index.js"
+  }
+}
