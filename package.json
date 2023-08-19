@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "npx tsc",
-    "up": "npm version patch -f && npm publish"
+    "up": "npm version patch -f && npm publish",
+    "pub": "npm publish"
   },
   "keywords": [
     "trivia",
