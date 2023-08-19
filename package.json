@@ -1,6 +1,6 @@
 {
   "name": "random-trivia-generator",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A CLI tool to get random trivia questions and answer them.",
   "main": "dist/index.js",
   "source": "src/index.ts",
