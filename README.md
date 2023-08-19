@@ -27,7 +27,7 @@ You will be presented with a random trivia question:
 - Try to answer: Enter your answer and press Enter to check if it's correct.
 - Get the answer: Press Enter to display the correct answer.
 
-## Contributing
+## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
