@@ -1,11 +1,15 @@
 {
   "name": "@stmoreau/random-trivia-generator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A CLI tool to get random trivia questions and answer them.",
   "main": "dist/index.js",
+  "source": "src/index.ts",
+  "bin": {
+    "@stmoreau/random-trivia-generator": "./dist/index.js"
+  },
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "up": "npm version patch -f && npm publish"
   },
   "keywords": [
     "trivia",
@@ -25,8 +29,5 @@
   "devDependencies": {
     "@types/node": "^20.5.1",
     "typescript": "^5.1.6"
-  },
-  "bin": {
-    "@stmoreau/random-trivia-generator": "./dist/index.js"
   }
 }
