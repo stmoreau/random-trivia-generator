@@ -1,6 +1,6 @@
 {
   "name": "random-trivia-generator",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "description": "A CLI tool to get random trivia questions and answer them.",
   "main": "dist/index.js",
   "source": "src/index.ts",
@@ -12,8 +12,7 @@
     "build": "npx tsc",
     "lint": "eslint --ignore-path .eslintignore --ext .ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "up": "npm version patch -f && npm publish",
-    "pub": "npm publish",
+    "up": "npm version patch -f && git push",
     "test": "jest --silent",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
