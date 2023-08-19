@@ -1,3 +1,4 @@
+import readline from "readline";
 import { fetchTriviaQuestion } from "./fetchTriviaQuestion";
 import { TriviaQuestion } from "./types";
 
@@ -11,13 +12,12 @@ export async function askQuestion() {
 
   displayQuestion(triviaQuestion);
 
-  const readline = require("readline");
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
   });
 
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     function checkAnswer(answer: string, attempts = 0) {
       if (
         answer.toLowerCase() === triviaQuestion!.correct_answer.toLowerCase()
@@ -32,7 +32,7 @@ export async function askQuestion() {
       } else {
         console.log("Incorrect!");
         rl.question("Try again:", (answer: string) =>
-          checkAnswer(answer, attempts + 1)
+          checkAnswer(answer, attempts + 1),
         );
       }
     }

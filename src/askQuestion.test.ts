@@ -1,6 +1,5 @@
 import { askQuestion } from "./askQuestion";
 import { fetchTriviaQuestion } from "./fetchTriviaQuestion";
-import readline from "readline";
 
 jest.mock("readline", () => {
   return {
