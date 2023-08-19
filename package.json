@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node triviaCLI.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "trivia",
@@ -28,12 +27,6 @@
     "typescript": "^5.1.6"
   },
   "bin": {
-    "trivia": "./dist/index.js"
-  },
-  "jspm": {
-    "registry": "npm",
-    "directories": {
-      "lib": "dist"
-    }
+    "@stmoreau/random-trivia-generator": "./dist/index.js"
   }
 }
