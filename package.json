@@ -1,5 +1,5 @@
 {
-  "name": "random-trivia-generator",
+  "name": "@stmoreau/random-trivia-generator",
   "version": "0.0.1",
   "description": "A CLI tool to get random trivia questions and answer them.",
   "main": "dist/index.js",
@@ -13,7 +13,9 @@
     "cli",
     "quiz"
   ],
-  "author": "stmoreau",
+  "author": "Stephane Moreau",
+  "repository": "https://github.com/stmoreau/random-trivia-generator",
+  "homepage": "https://github.com/stmoreau/random-trivia-generator#readme",
   "license": "MIT",
   "dependencies": {
     "@types/figlet": "^1.5.6",
