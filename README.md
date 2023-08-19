@@ -8,7 +8,7 @@ The Trivia Game CLI is a command-line interface application that generates rando
 
 ## Installation
 
-1. Install the Trivia CLI globally:
+Install the Trivia CLI globally:
 
 ```bash
 npm install -g random-trivia-generator
@@ -28,6 +28,7 @@ You will be presented with a random trivia question:
 - Get the answer: Press Enter to display the correct answer.
 
 ## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
