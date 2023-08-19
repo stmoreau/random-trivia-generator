@@ -29,5 +29,11 @@
   },
   "bin": {
     "trivia": "./dist/index.js"
+  },
+  "jspm": {
+    "registry": "npm",
+    "directories": {
+      "lib": "dist"
+    }
   }
 }
