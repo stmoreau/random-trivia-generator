@@ -10,7 +10,10 @@
   "scripts": {
     "build": "npx tsc",
     "up": "npm version patch -f && npm publish",
-    "pub": "npm publish"
+    "pub": "npm publish",
+    "test": "jest --silent",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "trivia",
@@ -22,13 +25,16 @@
   "homepage": "https://github.com/stmoreau/random-trivia-generator#readme",
   "license": "MIT",
   "dependencies": {
-    "@types/figlet": "^1.5.6",
     "axios": "^1.4.0",
     "commander": "^11.0.0",
     "figlet": "^1.6.0"
   },
   "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/jest": "^29.5.3",
     "@types/node": "^20.5.1",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
   }
 }
