@@ -15,6 +15,7 @@ jobs:
       - uses: actions/stale@v5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 30
           stale-issue-message: "This issue has not had any new activity in the last 30 days. If you would like to keep it open, please add a new comment!"
           stale-pr-message: "This pull request has not had any new commits pushed to it in the last 30 days. If you would like to keep it open, please push a new commit!"
           stale-issue-label: "no-issue-activity"
