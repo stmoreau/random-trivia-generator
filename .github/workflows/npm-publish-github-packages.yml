@@ -16,7 +16,7 @@ jobs:
       - run: npm run lint
       - run: npm test
 
-  publish-gpr:
+  publish:
     needs: build
     runs-on: ubuntu-latest
     permissions:
