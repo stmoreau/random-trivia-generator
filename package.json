@@ -33,7 +33,8 @@
     "axios": "^1.4.0",
     "commander": "^11.0.0",
     "figlet": "^1.6.0",
-    "he": "^1.2.0"
+    "he": "^1.2.0",
+    "stephane": "^1.0.0"
   },
   "devDependencies": {
     "@types/figlet": "^1.5.6",
